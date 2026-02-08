@@ -8,7 +8,7 @@ import SEO from '@/components/SEO'
 import ScrollRevel from '@/components/animations/ScrollRevel'
 import PageTransition from '@/components/animations/PageTransition'
 import ErrorState from '@/components/ErrorState'
-import {Button} from '@/components/ui/Button'
+import {Button} from '@/components/ui/button'
 
 const Projects = () => {
 
