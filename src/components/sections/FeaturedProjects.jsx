@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Container from '@/components/layout/Container'
 import ProjectCard from '@/components/projects/ProjectCard'
-import {Button} from '@/components/ui/Button'
+import {Button} from '@/components/ui/button'
 import {NavLink} from 'react-router-dom'
 import projectsdata from '@/data/projectsdata'
 import { useProjects } from '@/hooks/useProjects'
