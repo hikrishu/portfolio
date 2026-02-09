@@ -5,8 +5,8 @@ import FloatingBlob from '@/components/animations/FloatingBlob'
 const About = () => {
   return (
     <section className='py-24 bg-foreground'>
-        <Container>
-            <div className='max-w-3xl mx-auto relative flex flex-col items-center space-y-6 text-justify'>
+        <Container >
+            <div className='max-w-3xl mx-auto relative flex flex-col items-center space-y-6 text-justify '>
                 <h2 className='font-bold text-4xl tracking-tight'>About Me</h2>
                 <p className=' text-muted-foreground text-lg leading-relaxed'>
                     I’m a frontend developer focused on building clean, maintainable
@@ -18,13 +18,17 @@ const About = () => {
                     and I’m constantly improving my understanding of real-world frontend
                     patterns and best practices.
                 </p>
-                
+                <div className='w-full absolute'>
+                    <FloatingBlob size={100} color="bg-red-500" top={50} left={150} delay={0} />
+                    <FloatingBlob size={60} color="bg-blue-700" top={250} left={200} delay={2} />
+                    <FloatingBlob size={80} color="bg-yellow-400" top={350} left={50} delay={1} />
+                    <FloatingBlob size={50} color="bg-purple-700" top={200} left={1} delay={3} />
 
-                <FloatingBlob size={100} color="bg-red-400" top={50} left={400} delay={0} />
-                <FloatingBlob size={60} color="bg-blue-400" top={250} left={300} delay={2} />
-                <FloatingBlob size={80} color="bg-yellow-400" top={150} left={700} delay={1} />
-                <FloatingBlob size={50} color="bg-purple-400" top={350} left={400} delay={3} />
             </div>
+                
+                
+            </div>
+            
         </Container>
     </section>
   )

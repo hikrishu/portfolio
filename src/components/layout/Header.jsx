@@ -16,7 +16,7 @@ const Header = () => {
     <header className='border-b bg-foreground '>
         <Container>
             <div className='flex h-24 items-center justify-between '>
-                <NavLink to='/' className='font-extrabold text-4xl'>Krishna.</NavLink>
+                <NavLink to='/' className='font-extrabold text-4xl'><h1>Krishna.</h1></NavLink>
                 <nav className='space-x-4 text-lg'>
                     <NavLink to="/projects" 
                     className={linkClass}>Projects</NavLink>
